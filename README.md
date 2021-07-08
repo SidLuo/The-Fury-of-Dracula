@@ -86,3 +86,13 @@ How each session works:
 Note that each game uses one ./hunter from one group to play all four Hunter roles (i.e. the same AI will be used to play Lord Godalming, Dr. Seward, Van Helsing, and Mina Harker). Also, we will ensure that your Hunter AI always plays against a Dracula AI from another group.
 
 Since the marks are based on performance in the Hunts, it's in your best interest to submit working AIs as soon as possible. Even submitting an AI that simply moves to a random reachable location is worth something (not much admittedly, but better than zero, which is what no AI or a non-functioning AI will score). You can submit as many times as you like; the most recent submission will be chosen for each Hunt.
+
+**Maps of Europe**
+
+The game is set in Victorian (mid-late 1800's) Europe, so a map of Europe from that time is an essential tool for playing the game. The critical aspects of the map are the cities, the seas and the road/rail/ferry links between them.
+
+Note that you can only move from one city to another city via a direct road link between them, or you can move directly from one city to another over several rail links (trains are faster). From a port city, you can also move to the adjacent sea; once in a sea, you can subsequently move to any port city on that sea, or to any other sea which borders that sea.
+
+You can find larger maps at:
+
+http://guiltfreegames.files.wordpress.com/2010/10/europe.jpg (credit for this map to one of the authors on the Guilt Free Games website)
