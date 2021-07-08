@@ -22,7 +22,9 @@ This will place the following files in your directory:
 * dracula.c	skeleton implementation of the Dracula AI
 * hunter.h	interface to the Hunter AI
 * hunter.c	skeleton implementation of the Hunter AI
+
 If you have Views from the first part of the assignment that you're happy with, or new ones that you've developed since then, you can replace the supplied versions immediately with your own versions. If you don't have working Views from the Phase 1 of the assignment, then you'll have to wait until after Monday 26th September, when we'll release simple working versions of the Views for any groups that couldn't get them working in Phase 1.
+
 Note that many of above files are provided simply as a convenience, and you can replace them with your own versions if you want. The only interfaces that you need to honour precisely as given are those for the AIs (i.e. hunter.h and dracula.h. If you plan to include other ADTs with your code, you'll need to add dependencies to the Makefile to ensure that they're compiled.
 
 If you run make after copying your own View ADTs into place you should see something like the following:
@@ -80,6 +82,7 @@ How each session works:
   * start the Game Engine, invoke the AIs to determine moves, record game progress
   * when the game ends (see Rules), the game progress is analysed to determine marks
 * we update tournament tables that show whose AI is performing best
+* 
 Note that each game uses one ./hunter from one group to play all four Hunter roles (i.e. the same AI will be used to play Lord Godalming, Dr. Seward, Van Helsing, and Mina Harker). Also, we will ensure that your Hunter AI always plays against a Dracula AI from another group.
 
 Since the marks are based on performance in the Hunts, it's in your best interest to submit working AIs as soon as possible. Even submitting an AI that simply moves to a random reachable location is worth something (not much admittedly, but better than zero, which is what no AI or a non-functioning AI will score). You can submit as many times as you like; the most recent submission will be chosen for each Hunt.
