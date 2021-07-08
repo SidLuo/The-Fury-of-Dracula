@@ -82,7 +82,7 @@ How each session works:
   * start the Game Engine, invoke the AIs to determine moves, record game progress
   * when the game ends (see Rules), the game progress is analysed to determine marks
 * we update tournament tables that show whose AI is performing best
-* 
+
 Note that each game uses one ./hunter from one group to play all four Hunter roles (i.e. the same AI will be used to play Lord Godalming, Dr. Seward, Van Helsing, and Mina Harker). Also, we will ensure that your Hunter AI always plays against a Dracula AI from another group.
 
 Since the marks are based on performance in the Hunts, it's in your best interest to submit working AIs as soon as possible. Even submitting an AI that simply moves to a random reachable location is worth something (not much admittedly, but better than zero, which is what no AI or a non-functioning AI will score). You can submit as many times as you like; the most recent submission will be chosen for each Hunt.
